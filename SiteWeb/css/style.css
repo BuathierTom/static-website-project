@@ -1,0 +1,394 @@
+body{
+    background-color:  #FAFCFD;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    width: 1519px;
+}
+  
+*{
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----- Header ----- */
+
+header nav {
+  background-color: #BBD5E6;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  height: 100px;
+  border-bottom: solid black 2px;
+  margin-bottom: 80px;
+}
+
+header .logo{
+  padding: 10px;
+}
+
+header .logo img:hover{
+  filter: brightness(90%);
+}
+
+header .logo a:hover{
+  filter: none;
+}
+
+header nav a{
+  text-align: center;
+  margin-top: 22px;
+  padding-top: 8px;
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+}
+
+header nav a:hover{
+  filter: brightness(90%);
+  color: #242424;
+  background-color: #BBD5E6;
+}
+
+
+
+
+/* ----- Paramètres généraux ----- */
+
+.in{
+  width: 900px;
+  margin: auto;
+}
+
+a, a:hover{
+  color: currentColor;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+p{
+  font-size: 20px;
+  line-height: 150%;
+}
+
+hr{
+  width: 100%;
+  border: solid black 1px;
+  opacity: 100%;
+  margin: 0;
+}
+
+h2{
+  font-size: 30px;
+}
+
+
+
+/* ----- Page accueil ----- */
+
+.corps_accueil{
+  height: 620px;
+}
+
+.corps_accueil .corps_left{
+  width: 400px;
+  float: left;
+}
+
+.corps_accueil .corps_left .img_iut1{
+  margin-bottom: 30px;
+}
+
+.corps_accueil .corps_right{
+  float: right;
+  width: 400px;
+}
+
+.corps_accueil .corps_right .img_iut2{
+  margin-top: 30px;
+}
+
+.corps_right a{
+  text-decoration: none;
+}
+
+.corps_right a:hover{
+  cursor: text;
+}
+
+
+/* ----- Bouton CTA ----- */
+
+.btn_cta{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.btn_cta h2{
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.btn_cta button{
+  width: 350px;
+  height: 90px;
+  border-radius: 25px;
+  font-size: 25px;
+  background-color: #4D8BB4;
+  border: none;
+  color: #FAFCFD;
+  margin-bottom: 0;
+}
+
+.btn_cta button:hover{
+  background-color: #4D8BB4;
+  filter: brightness(90%);
+}
+
+.btn_cta button:focus{
+  box-shadow: #BBD5E6 0px 0px 0px 0.25rem;
+  color: #FAFCFD;
+  background-color: #4D8BB4;
+  border-color: none;
+}
+
+
+
+
+
+/* ----- Page Parcours ----- */
+
+.parcours_cartes .cartes{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.parcours_cartes .cartes p{
+  width: 50%;
+}
+
+.etapes{
+  margin-top: 80px;
+}
+
+.etapes h2{
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.etapes .photos{
+  text-align: center;
+}
+
+.etapes .photo_etape{
+  margin: 20px;
+  width: 400px;
+}
+
+.hr_parcours{
+  margin-top: 80px;
+}
+
+
+
+
+/* ----- Page Règlement ----- */
+
+.reglement p{
+  margin: 0;
+}
+
+.reglement h2{
+  margin-bottom: 30px;
+}
+
+.reglement hr{
+  margin: 50px 0px 50px 0px;
+}
+
+
+
+
+/* ----- Page Inscription ----- */
+
+.recompenses{
+  margin: auto;
+  width: 900px;
+  margin-top: 80px;
+}
+
+.hr_inscription{
+  margin-top: 80px;
+}
+
+.recompenses h2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+
+/* ----- Page Contact ----- */
+
+.map-iut{
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.info-iut{
+  justify-content: space-around;
+  padding-top: 20px;
+  display: flex;
+  text-align: center;
+}
+
+.titre h2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.info-iut a{
+  text-decoration: none;
+}
+
+.hr_contact{
+  margin-bottom: 80px;
+}
+
+.social_contact{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-right: 10%;
+}
+
+.social_contact .text{
+  font-size: 18px;
+  vertical-align: 30px;
+  padding-left: 20px;
+}
+
+.social_contact .text_iut{
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.social_contact a span{
+  background: transparent;
+  line-height: 100px;
+  text-align: center;
+  font-size: 80px;
+  transition: 0.4s;
+}
+
+.logoiut{
+  float: right;
+  height: 300px;
+  margin-top: 80px;
+  margin-right: 5%;
+  border-radius: 50%;
+}
+
+.iutnoir{
+  margin-top: 15px;
+  width: 70px;
+  height: 65px;
+  border-radius: 7px;
+}
+
+
+
+
+/* ----- Footer ----- */
+
+footer{ /*Style du footer*/
+  border-top: solid black 2px;
+  color: black;
+  width: 100%;
+  background-color: #BBD5E6;
+  margin-bottom: 0;
+  bottom:0;
+  margin-top: 80px;
+}
+
+.footer_area{ /* Style de la zone du footer */
+  display: flex;
+  padding: 25px;
+}
+
+.footer_area .section{ /*Style de toutes les sections dans la zone du footer*/
+  flex-basis: 50%;
+  padding: 0 20px;
+}
+
+.section h2{ /*Style des titres <h2> des sections*/
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.section .section_content{
+  margin:10px 0 0 0;
+  position: relative;
+}
+
+.social a span{
+  height: 55px;
+  width: 55px;
+  background: transparent;
+  line-height: 55px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50%;
+  transition: 0.4s;
+  border:1px solid #656565;
+  margin-right: 20px;
+  color: #BBD5E6;
+  background-color: black;
+}
+
+.social a span:hover{
+  color: black;
+  background-color: #BBD5E6;
+}
+
+#left.section, #center.section, #right.section{
+  padding-left: 100px;
+}
+
+#left.section a{
+  line-height: 150%;
+}
+
+#left.section a:hover{
+  text-decoration: none;
+}
+
+#center .section_content .text{
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+#right.section h2{
+  padding-bottom: 20px;
+}
+
+.phone{
+  margin: 15px 0;
+}
+
+.to_top{
+  width: 100%;
+  height: 30px;
+  padding-top: 5px;
+  background-color: #4D8BB4;
+  color: #FAFCFD;
+  text-align: center;
+  font-size: small;
+  
+}
